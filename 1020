@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class PrimeiroPrograma {
+
+public static void main(String[] args) {
+
+
+Scanner ler = new Scanner (System.in);
+	
+int idade, ano , mes, dia ; 
+
+System.out.println("Escreva a sua idade em dias:");
+ idade= ler.nextInt();
+ 
+ano=idade/365;
+mes=(idade-30)/365;
+
+
+System.out.println("A idade em ano: " + ano);
+System.out.println("A idade em meses: " + mes);
+}
+
+}
+// Não consegui achar a logica de dias...
