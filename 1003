@@ -8,15 +8,15 @@ public static void main(String[] args) {
 
 Scanner Ler = new Scanner (System.in);
 
-int Idade,Idade2, Soma;
+int a, b, soma;
 
-System.out.println("Escreva um numero");
-Idade = Ler.nextInt();
-Idade2 = Ler.nextInt();
-Soma = Idade+Idade2;
+System.out.println("Escreva dois numero");
+a = Ler.nextInt();
+b= Ler.nextInt();
+soma = a+b;
 
 
-System.out.println("Soma " +Soma);
+System.out.println("SOMA = " + soma);
 
 }
 
