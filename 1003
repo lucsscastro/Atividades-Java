@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PrimeiroPrograma {
+
+
+public static void main(String[] args) {
+
+
+Scanner Ler = new Scanner (System.in);
+
+int Idade,Idade2, Soma;
+
+System.out.println("Escreva um numero");
+Idade = Ler.nextInt();
+Idade2 = Ler.nextInt();
+Soma = Idade+Idade2;
+
+
+System.out.println("Soma " +Soma);
+
+}
+
+}
