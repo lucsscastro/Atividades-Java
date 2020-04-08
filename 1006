@@ -9,7 +9,7 @@ Scanner ler = new Scanner (System.in);
 	
 double a, b, c, media; 
 
-System.out.println("Escreva as duas notas:");
+System.out.println("Escreva as 3 notas:");
  a= ler.nextDouble();
  b= ler.nextDouble();
  c= ler.nextDouble();
