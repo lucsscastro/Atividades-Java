@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PrimeiroPrograma {
+
+public static void main(String[] args) {
+
+
+Scanner ler = new Scanner (System.in);
+	
+double a, b, media; 
+
+System.out.println("Escreva as duas notas:");
+ a= ler.nextDouble();
+ b= ler.nextDouble();
+
+media= ((a*3.5)+(b*7.5))/11;
+
+   System.out.println("Media = " + media);
+
+}
+}
+
+
